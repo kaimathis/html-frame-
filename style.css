@@ -126,11 +126,6 @@ body {
   }
 
   .three-column-row > div {
-    padding: 18px 15px;
-  }
-
-  .three-column-row > div + div {
-    border-left: 0;
-    border-top: 1px solid #d8d8d8;
+    padding: 0 10px 12px;
   }
 }
