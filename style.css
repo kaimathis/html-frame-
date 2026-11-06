@@ -1,12 +1,13 @@
-/* Base text style: serif body copy, similar to the class example. */
+/* Base text style */
 body {
   color: #212529;
   font-family: Georgia, "Times New Roman", serif;
   font-size: 1rem;
   line-height: 1.75;
+  padding-top: 70px;
 }
 
-/* Bootstrap's navbar keeps its own system font. */
+/* Keep the navbar in a sans-serif font */
 .navbar {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -72,11 +73,27 @@ body {
 
 .three-column-row {
   margin-top: 18px;
-  text-align: center;
+  text-align: left;
 }
 
 .three-column-row > div {
-  padding-bottom: 12px;
+  padding: 0 24px 12px;
+}
+
+.three-column-row > div + div {
+  border-left: 1px solid #d8d8d8;
+}
+
+.column-title {
+  color: #212529;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.three-column-row p {
+  margin-bottom: 0;
 }
 
 .story-footer {
@@ -106,5 +123,14 @@ body {
 
   .chapter-title {
     font-size: 1.7rem;
+  }
+
+  .three-column-row > div {
+    padding: 18px 15px;
+  }
+
+  .three-column-row > div + div {
+    border-left: 0;
+    border-top: 1px solid #d8d8d8;
   }
 }
