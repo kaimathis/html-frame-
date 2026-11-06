@@ -12,43 +12,43 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Bootstrap navigation bar -->
- <nav class="navbar fixed-top navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">Fixed top</a>
-</nav>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+  <!-- Single fixed-top Bootstrap navigation bar -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Fixed top</a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
+            role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
 
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search"
@@ -89,7 +89,7 @@
         <img
           class="img-fluid story-photo"
           src="https://i.pinimg.com/1200x/01/34/d2/0134d240d04a8f3316aa1a40cf152a8e.jpg"
-          alt="Bengal Cat">
+          alt="Bengal cat">
         <figcaption class="photo-caption">
           Caption: Insert image, video, graphic or other visual here.
         </figcaption>
@@ -114,9 +114,18 @@
 
       <!-- Optional three-column row -->
       <div class="row three-column-row">
-        <div class="col-md-4">One of three columns</div>
-        <div class="col-md-4">One of three columns</div>
-        <div class="col-md-4">One of three columns</div>
+        <div class="col-md-4">
+          <h3 class="column-title">Column One</h3>
+          <p>Add a short story detail or supporting point here.</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="column-title">Column Two</h3>
+          <p>Add another detail, quote or related fact here.</p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="column-title">Column Three</h3>
+          <p>Add a final point or piece of context here.</p>
+        </div>
       </div>
     </article>
   </main>
